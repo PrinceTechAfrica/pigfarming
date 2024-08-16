@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="jquery/jquery.slim.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css.css">
+        <title>Computerized Pig Farming System</title>
+
+    </head>
+    <body>
+        <!--This is how we make a navigation bar in BS4
+        First we call the navbar class - for the navbar
+        then we call the navbar-expand class - for responsive collapse
+        the bg-dark gives us a dark background for the navbar
+        the navbar-dark - gives us ironically light text-->
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
+            <!--Now we call the navbar brand which is basically the logo or business name for the web page works best by putting it in an anchr-->
+            <a class="navbar-brand" href="#"><img src="images/FClogo.png" width="70px">Computerized Pig Farming System</a>
+            <!--In other to make the responsive collapse to work we call the button now
+            We use navbar-toggler for navigation toggling behaviours-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsed">
+                <!--This span is just for the icon to appear in the button-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--the collapse & navbar-collapse classes are used to identify and group all that will be hidden by the toggle button-->
+            <div class="collapse navbar-collapse" id="collapsed">
+                <!--Now we put our navigation links here-->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about_us.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="admin/">Admin</a></li>
+                </ul>
+                <form class="form-inline my-2 my-xl-0" action="#">
+                    <input class="form-control mr-xl-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-info" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        
+        <div id="carouselSlide" class="carousel slide carousel-fade" data-ride="carousel" data-pause="hover">
+            
+            <ul class="carousel-indicators">
+                <li data-target="#carouselSlide" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselSlide" data-slide-to="1" class="active"></li>
+                <li data-target="#carouselSlide" data-slide-to="2" class="active"></li>
+            </ul>
+            
+           
+        <div class="container">
+            <div class="jumbotron">
+                <p><h3>About Us  </h3>     
+                    <p>Nigeria Prison Agriculture Project, State Command (NPAPSCE) stated its operation in Nigeria Prison State Command Enugu between 1980-1981 under the management of MRS MARIA EBUCHE. NPAPSCE started it operation with about three kinds of animals sections, poultry department and crop department.  As Nigeria Prison State Command seems to be a world of its owner, the manager (DSP) did not relent at all instead he worked indefatigably expand and introduce other animals to the animal department
+                        Around 1990, there came the expansion of the organization / management.  That was when the idea of introducing piggery farm section was accepted in anticipation of the management goals achievement.  This led to the origin of piggery farm in this management.  The piggery farm they said has provide worthwhile, it has contributed a lot to the labor market and to the management itself</p>
+                        <p>
+                            the intention of this project is to computerize farm management information system which have been operated manually. The organization was essentially operated with a great deal of human efforts, Management information systems remain the system that is aimed at providing information for the management on a regular basis.  This call to mind the time value of information which implies that when the required information is received behind the period it will be used, the information become useless. Management always aim at reaching the climax in the decision performance of organizational objective but this existing system could not attract such performance due to the lack of effective information tool which can provide the management with quality and needed information and at needed time.  This system always results to information over local which actually decreases the decision performance in any management.  Information they say is power.  Quality information is very vital to check in organization.  The only information that can accelerate the management decision performance is the information that process the good quality of information.
+                        </p>
+                    </div>
+        </div>
+
+    </body>
+</html>
